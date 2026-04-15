@@ -1,0 +1,10 @@
+[hardware]
+name = "gtx1650_4gb"
+vram_gb = 4
+backend = "cuda"
+precision = "q4"
+max_context = 2048
+
+[limits]
+max_batch_size = 1
+enable_kv_offload = true

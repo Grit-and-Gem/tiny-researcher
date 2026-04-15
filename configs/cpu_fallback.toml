@@ -1,0 +1,10 @@
+[hardware]
+name = "cpu_fallback"
+backend = "cpu"
+threads = 8
+precision = "q4_k_m"
+max_context = 1024
+
+[limits]
+max_batch_size = 1
+enable_kv_offload = false
