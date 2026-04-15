@@ -1,0 +1,13 @@
+# Ignore model weight artifacts and large binaries
+*.bin
+*.gguf
+*.ggml
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.model
+adapters/
+weights/
+cache/
