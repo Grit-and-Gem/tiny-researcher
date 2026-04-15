@@ -1,0 +1,10 @@
+[package]
+name = "tiny-researcher"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "research"
+path = "src/main.rs"
+
+[dependencies]
